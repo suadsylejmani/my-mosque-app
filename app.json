@@ -26,6 +26,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "This app uses your location to show the Qibla direction (bearing to the Kaaba in Mecca)."
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
